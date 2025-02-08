@@ -1,0 +1,32 @@
+body{
+    background-image: url("../img/fotoprincipal.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0,5;
+}
+
+main{
+    background-color: rgba(0, green, 0, 0.9);
+    padding: 0px 40px;
+    /*margin-top: 0px;*/
+    border-radius: 20px;
+}
+
+.links{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.links a:hover{
+    background-color: grey;
+}
+
+.frase{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

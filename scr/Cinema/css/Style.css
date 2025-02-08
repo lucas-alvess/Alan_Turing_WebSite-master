@@ -1,0 +1,157 @@
+/*ESSENCIAL*/
+html{
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+.menu {
+      text-align: center;
+}
+
+ul.menu li {
+    display: inline-block;
+    margin: 0 5px;
+}
+  
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(201, 150, 5);
+}
+
+body{
+    background-color:rgb(121, 124, 129);
+    margin: auto;
+    padding: 0;
+    line-height: 1.5;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    text-align: justify;
+    scroll-behavior: smooth;
+} 
+
+/*ESSENCIAL*/
+header{
+    background-color: rgb(143, 91, 77);
+    background-image: radial-gradient(farthest-corner at 16% 10%,rgba(255,255,255,.18) 0,rgba(255,255,255,0) 100%); 
+    padding-top: 03px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    color: white;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
+    text-shadow: 3px 3px black;
+}
+
+.titulo{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    line-height: 0.4;
+} /*Div para o Header*/
+ 
+.corpo{
+    width: 95%;
+    max-width: 800px;
+    margin: auto;
+    padding: 0;
+}
+
+iframe{
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+hr{
+    border: 1px solid black;
+}
+  
+h2{
+    text-align: center;
+}
+
+.ref{
+    text-align: center; 
+}
+
+.p3{
+    text-align: left;
+    font-size: 14px; 
+    font-family: sans-serif;
+    margin-left: 10px;
+    
+}
+
+/*ESSENCIAL*/
+footer{
+    background-color: #333;
+    text-align: left;
+    padding: 10%;
+    color: white;
+    list-style-type: none;
+}
+
+.footer h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+.footer h6 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+.unip {
+    color:gold;
+}
+
+/*ESSENCIAL*/
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(143, 91, 77);
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+/*ESSENCIAL*/
+.btn::after {
+    content: "▲";
+    font-size: 32px;
+    font-weight: bold;
+    color: aliceblue;
+    transition: margin-top 250ms;
+}
+
+/*ESSENCIAL*/
+.btn:hover::after {
+    margin-top:-8px;
+}

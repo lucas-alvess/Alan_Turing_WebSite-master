@@ -1,0 +1,215 @@
+/*ESSENCIAL*/
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+.menu {
+      text-align: center;
+}
+
+ul.menu li {
+    display: inline-block;
+    margin: 0 5px;
+    }
+  
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: rgb(201, 150, 5);
+}
+
+body {
+    background-color: rgb(121, 124, 129);
+    margin: auto;
+    padding: 0;
+    line-height: 1.5;
+    font-family: sans-serif;
+    text-align: justify;
+    scroll-behavior: smooth;
+} 
+
+/*ESSENCIAL*/
+header{
+    background-color: rgb(143, 91, 77);
+    background-image: radial-gradient(farthest-corner at 16% 10%,rgba(255,255,255,.18) 0,rgba(255,255,255,0) 100%); 
+    padding-top: 03px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    color: white;
+    text-shadow: 3px 3px black;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.titulo{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 0.4;
+} /*Div para o Header*/
+
+ h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+}
+ 
+ .corpo{
+    width: 95%;
+    max-width: 800px;
+    margin: auto;
+    padding: 0;
+}
+ /*div para reduzir tamanho dos itens da imagem até o final do texto*/
+
+ .conteudo{
+    display: table;
+}
+
+ .img {
+    display: table-cell;
+    float:left;
+    margin-right: 10px;
+}
+
+ .caption {
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+ .tabela{
+    display: table-cell;
+    float: left;
+    background: #333;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    text-align: center;
+    border: 1px solid white;
+}
+
+td{
+    text-align: center;
+    color: white;
+}
+
+tr{
+    border: 1,5px solid black;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+.text {
+    text-indent: 20px;
+}
+
+.ref{
+    text-align: center;
+}
+
+.p3{
+    text-align:left;
+    font-size: 14px; 
+    font-family: sans-serif;
+    color:black;
+    margin-left: 10px;
+} 
+
+/*ESSENCIAL*/
+.footer{
+    background-color: #333;
+    text-align: left;
+    padding: 10%;
+    color: white;
+    list-style-type: none;
+}
+
+.footer h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+.footer h6 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+.footer img{
+    float: right;
+}
+
+.final{
+    display: table;
+}
+
+.final2{
+    display: table-cell;
+    float: left;
+}
+
+.finalimg{
+    display: table-cell;
+}
+
+.unip {
+    color:gold;
+}
+
+/*ESSENCIAL*/
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(143, 91, 77);
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+/*ESSENCIAL*/
+.btn::after {
+    content: "▲";
+    font-size: 32px;
+    font-weight: bold;
+    color: aliceblue;
+    transition: margin-top 250ms;
+}
+
+/*ESSENCIAL*/
+.btn:hover::after {
+    margin-top:-8px;
+}
